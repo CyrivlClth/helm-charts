@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nacos
+  labels:
+    app: nacos
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nacos
+  template:
+    metadata:
+      name: nacos
+      labels:
+        app: nacos
+    spec:
+      containers:
+        - name: nacos
+          image: nacos/nacos-server:v2.4.2
+          imagePullPolicy: IfNotPresent
+          command:
+            - bash
+            - -c
+            - sleep 3600
+      restartPolicy: Always
+      

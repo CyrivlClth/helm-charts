@@ -1,0 +1,51 @@
+# Helm Charts
+charts/*.tgz
+charts/*.tar.gz
+charts/*.zip
+
+# Chart.lock file
+Chart.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+helm-debug.log
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.yaml
+*.test.yml
+
+# Backup files
+*.bak
+*.backup
+*_backup 
