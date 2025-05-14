@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  nacos:
+  - apiVersion: v2
+    appVersion: v2.4.2
+    created: "2025-05-14T15:43:52.559476179Z"
+    description: A Helm chart for Kubernetes
+    digest: c639d3608175374c7f58157c62572b2bcbc1dd678ca019aef73eec5a462ac254
+    icon: https://nacos.io/img/nacos_colorful.png
+    name: nacos
+    type: application
+    urls:
+    - https://cyrivclth.github.io/helm-charts/nacos-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-14T15:43:52.558980154Z"
